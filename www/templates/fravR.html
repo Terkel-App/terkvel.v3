@@ -1,0 +1,15 @@
+<ion-view title="Fravær">
+    <ion-content overflow-scroll="true" padding="true" class="bg-color">
+        <form class="list">
+            <label class="item item-input" name="sykmeldingtekst">
+                <span class="input-label">Melding</span><textarea rows="4" placeholder=""> </textarea>
+            </label>
+            <ion-checkbox name="checkknapp">Check-knapp</ion-checkbox>
+        </form>
+        <div class="spacer" style="height: 100px;"></div>
+        <div class="button-bar">
+            <a ui-sref="tabsController.dashbord" class="button button-balanced button-block ">Send</a>
+            <a ui-sref="tabsController.dashbord" class="button button-assertive button-block ">Abryt</a>
+        </div>
+    </ion-content>
+</ion-view>
